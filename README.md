@@ -101,7 +101,6 @@ The analysis is entirely **data‑driven**, using Python-based Exploratory Data 
 
 Telecom-Customer-Churn-Analytics/
 │
-├── Customer Churn.csv
 ├── Telcom Customer Churn Analysis.ipynb
 ├── Telcom churn project images pdf.pdf
 └── README.md
