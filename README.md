@@ -2,100 +2,99 @@
 
 ## 📌 Project Overview
 
-Customer churn has a direct impact on **revenue, growth, and customer lifetime value** in the telecom industry.
-This project focuses on analyzing telecom customer data to identify **who is churning, why they churn, and which customer segments require immediate attention**.
+Customer churn significantly impacts revenue, profitability, and long-term business growth in the telecom industry. This project analyzes 7,043 telecom customers with 21 features using Python-based Exploratory Data Analysis (EDA) to identify churn patterns, high-risk customer segments, and key business drivers behind customer attrition.
 
-The analysis is entirely **data‑driven**, using Python-based Exploratory Data Analysis (EDA) to extract actionable business insights.
-
----
+The analysis revealed an overall churn rate of 26.5% (1,869 customers), highlighting a substantial revenue risk. Key factors such as contract type, tenure, payment method, and service subscriptions were found to strongly influence customer retention and churn behavior.
 
 ## 🔍 Dataset Snapshot
 
-* **Total customers:** 7,043 (active & cancelled)
-* **Total features:** 21
-* **Key attributes include:**
+Total Customers: 7,043
 
-  * Tenure
-  * Contract type
-  * Services subscribed
-  * Monthly & total charges
-  * Payment methods
-  * Demographics
+Total Features: 21
 
----
+Churned Customers: 1,869
+
+Churn Rate: 26.5%
+
+### Key Attributes Analyzed:
+
+**Tenure, contract type, subscribed services, monthly charges, total charges, payment methods, and demographics.**
 
 ## 🧹 Data Preparation & Feature Engineering (Python)
 
-* Cleaned blank values in **TotalCharges** and corrected data types
-* Created new analytical features:
+Cleaned missing values and corrected data types in TotalCharges
 
-  * `SeniorCitizen_YN`
-  * `Service_Count`
-  * `AvgMonthlySpend`
-* Ensured **zero missing values**, making the dataset analysis‑ and model‑ready
+Created new analytical features such as:
 
----
+Service_Count
 
-## 📈 Key Insights from Analysis
+AvgMonthlySpend
 
-### 📉 Overall Churn
+SeniorCitizen_YN
 
-* **Churn rate:** 26.5%
-* **Total churned customers:** 1,869
+Ensured 100% clean and analysis-ready dataset with no missing values
 
-### 👥 Gender Impact
+## 📈 Key Insights
 
-* Female churn rate: **25%**
-* Male churn rate: **27%**
-  ➡ Churn difference by gender is minimal
+**📉 Overall Churn Behavior**
 
-### 🧓 Age Effect
+⁘ 26.5% churn rate indicates over 1 in 4 customers leave the service.
 
-* Senior citizen churn: **31%**
-* Non‑senior churn: **24%**
-  ➡ Senior customers are at higher churn risk
+⁘ 40% of churned customers left within the first 6 months, showing high early-stage risk.
 
-### 📅 Contract Type Impact
+**📅 Contract Type Impact (Strongest Driver)**
 
-* Month‑to‑month contracts account for **63% of total churn**
-* 1‑year contracts: **17%**
-* 2‑year contracts: **4%**
-  ➡ Contract duration is the strongest churn driver
+⁘ Month-to-month contracts contributed to 63% of total churn
 
-### 💳 Payment Method Risk
+⁘ 1-year contracts: 17% churn
 
-* Electronic check: **43% churn** (highest risk)
-* Mailed check: **29% churn**
-* Credit card / Bank transfer: **≤ 25% churn**
+⁘ 2-year contracts: only 4% churn
+➡ Long-term contracts significantly improve retention
 
-### 📺 Service Bundling Effect
+**💳 Payment Method Risk**
 
-* Customers with **0–2 services churn nearly 2× faster** than customers with **5+ services**
+⁘ Electronic check users showed the highest churn rate at 43%
 
-### 💰 Tenure Insights
+⁘ Credit card and bank transfer customers had lower churn (≤ 25%)
+➡ Payment method is a key churn risk indicator
 
-* **40% of churned customers leave within the first 6 months**
-* Median tenure of churned customers: **9 months**
+**📺 Service Subscription Impact**
 
----
+⁘ Customers with 0–2 services churn nearly 2× faster than customers with 5+ services
+➡ More service adoption improves customer retention
 
-## 💡 Business Takeaways
+**🧓 Customer Demographics**
 
-* Encourage **month‑to‑month customers** to switch to long‑term contracts
-* Promote **bundle / combo service plans** to improve retention
-* Focus retention efforts on **new customers in their early months**
-* Reduce dependency on **high‑churn payment methods** such as electronic checks
+⁘ Senior citizen churn rate: 31%
 
----
+⁘ Non-senior churn rate: 24%
+➡ Senior customers are at higher churn risk
+
+**💡 Business Insights & Recommendations**
+
+» Convert month-to-month customers into long-term contracts to reduce churn risk
+
+» Promote bundle service packages to increase customer retention
+
+» Focus retention strategies on new customers within first 6 months
+
+» Encourage customers to switch from electronic check to secure payment methods
 
 ## 🛠 Tools & Technologies
 
-* **Python**
-* **Pandas & NumPy** – Data manipulation
-* **Matplotlib & Seaborn** – Data visualization
-* **Jupyter Notebook** – Analysis environment
+● Python
 
----
+● Pandas & NumPy – Data analysis
+
+● Matplotlib & Seaborn – Data visualization
+
+● Jupyter Notebook – Analysis environment
+
+## 🚀 Conclusion
+
+This analysis identified key churn drivers including contract type, payment method, tenure, and service adoption, with month-to-month contracts and electronic check users showing the highest churn risk. The findings show that early customer experience and service engagement are critical for retention.
+
+By targeting high-risk segments and promoting long-term contracts and service bundles, telecom companies can significantly reduce churn, improve customer lifetime value, and increase overall business stability through data-driven retention strategies.
 
 ## 📁 Project Structure
 
@@ -107,7 +106,7 @@ Telecom-Customer-Churn-Analytics/
 
 ---
 
-🤝 Connect
+### 🤝Connect
 
 If you like this project or want to collaborate, feel free to connect!
 
