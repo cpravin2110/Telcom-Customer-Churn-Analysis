@@ -1,10 +1,17 @@
 # 📊 Telecom Customer Churn Analysis
 
+---
+![Dashboard Preview](Screenshot%202025-11-22%20131808.png)
+
+---
+
 ## 📌 Project Overview
 
 Customer churn significantly impacts revenue, profitability, and long-term business growth in the telecom industry. This project analyzes 7,043 telecom customers with 21 features using Python-based Exploratory Data Analysis (EDA) to identify churn patterns, high-risk customer segments, and key business drivers behind customer attrition.
 
 The analysis revealed an overall churn rate of 26.5% (1,869 customers), highlighting a substantial revenue risk. Key factors such as contract type, tenure, payment method, and service subscriptions were found to strongly influence customer retention and churn behavior.
+
+---
 
 ## 🔍 Dataset Snapshot
 
@@ -16,9 +23,15 @@ Churned Customers: 1,869
 
 Churn Rate: 26.5%
 
+---
+
+
 ### Key Attributes Analyzed:
 
 **Tenure, contract type, subscribed services, monthly charges, total charges, payment methods, and demographics.**
+
+---
+
 
 ## 🧹 Data Preparation & Feature Engineering (Python)
 
@@ -33,6 +46,8 @@ AvgMonthlySpend
 SeniorCitizen_YN
 
 Ensured 100% clean and analysis-ready dataset with no missing values
+
+---
 
 ## 📈 Key Insights
 
@@ -80,6 +95,8 @@ Ensured 100% clean and analysis-ready dataset with no missing values
 
 » Encourage customers to switch from electronic check to secure payment methods
 
+---
+
 ## 🛠 Tools & Technologies
 
 ● Python
@@ -90,11 +107,15 @@ Ensured 100% clean and analysis-ready dataset with no missing values
 
 ● Jupyter Notebook – Analysis environment
 
+---
+
 ## 🚀 Conclusion
 
 This analysis identified key churn drivers including contract type, payment method, tenure, and service adoption, with month-to-month contracts and electronic check users showing the highest churn risk. The findings show that early customer experience and service engagement are critical for retention.
 
 By targeting high-risk segments and promoting long-term contracts and service bundles, telecom companies can significantly reduce churn, improve customer lifetime value, and increase overall business stability through data-driven retention strategies.
+
+---
 
 ## 📁 Project Structure
 
