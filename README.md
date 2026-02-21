@@ -123,6 +123,7 @@ Telecom-Customer-Churn-Analytics/
 │
 ├── Telcom Customer Churn Analysis.ipynb
 ├── Telcom churn project images pdf.pdf
+├── Telcom churn template.png
 └── README.md
 
 ---
