@@ -1,7 +1,7 @@
 # 📊 Telecom Customer Churn Analysis
 
 ---
-![Dashboard Preview](Screenshot%202025-11-22%20131808.png)
+![Dashboard Preview](https://github.com/cpravin2110/Telcom-Customer-Churn-Analysis/blob/602c36899f2e6c622b9ec8fb86a68dd46ea43b94/Telecom%20churn%20Template.png)
 
 ---
 
