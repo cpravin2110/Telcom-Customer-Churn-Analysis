@@ -1,4 +1,4 @@
-# 📊 Telecom Customer Churn Analytics
+# 📊 Telecom Customer Churn Analysis
 
 ## 📌 Project Overview
 
